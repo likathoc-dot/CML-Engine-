@@ -1,0 +1,1 @@
+from kivy.app import App\nfrom kivy.uix.label import Label\n\nclass CMLApp(App):\n    def build(self):\n        return Label(text='Hello, CML Engine!')\n\nif __name__ == '__main__':\n    CMLApp().run()
